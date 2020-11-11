@@ -211,6 +211,7 @@ $selected-text-bg: darken($text-color,40);
 
 $pre-font-size: $text-xxs;
 $pre-border-radius: $rounded;
+$pre-bg: lighten(invert($bg),90);
 
 $footnote-color: $text-color;
 /* @end */

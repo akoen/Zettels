@@ -179,8 +179,6 @@ pre {
 // Inline-blocks
 
 h1 code, h2 code, h3 code, h4 code, h5 code, h6 code, li code, p code {
-	background: $inline-code-bg;
-	//border: 1px solid #90cdf4; 
 	border-radius: 0.25rem;
 	font-family: monospace;
 	color: $inline-code-color; 

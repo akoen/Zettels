@@ -3,8 +3,10 @@
 
 /* @group copy-button */
 pre {
+	// TODO Configure syntax highlighting
 	position: relative;
-	
+	background-color: $pre-bg;
+	border-radius: 0.5rem;
 }
 
 .copy-button {
