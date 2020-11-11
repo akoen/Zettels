@@ -106,8 +106,9 @@ ol ol, ul ul {
 	margin-bottom: 0px;
 }
 
-ol li {
+li {
 	position: relative;
+	margin-bottom: 0.6em;
 	//text-indent: -1.45em
 }
 
@@ -128,12 +129,6 @@ ol li:before {
 	}
 }
 
-ul li {
-	position: relative;
-	/*text-indent: -0.35em*/
-	
-}
-
 ul li:before {
 	position: absolute;
 	//content: "\2022";
@@ -142,6 +137,23 @@ ul li:before {
 	width: 1em;
 	display: inline-block;
 	margin-left: -$d5;
+}
+
+dl {
+    margin-bottom: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+dt {
+    width: 15%;
+    font-weight: 700;
+    text-align: right;
+}
+
+dd {
+    width: 85%;
+    padding-left: 1em;
 }
 
 
