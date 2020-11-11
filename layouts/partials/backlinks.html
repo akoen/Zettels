@@ -1,5 +1,5 @@
-{{ $bracket1 := "\\[\\[" }}
-{{ $bracket2 := "\\]\\]" }}
+{{ $bracket1 := "<a href=\".*" }}
+{{ $bracket2 := ".*\">" }}
 {{ $filename := .File.BaseFileName }}
 
 {{ $path :=  printf "%s%s%s" $bracket1 $filename $bracket2 }}
